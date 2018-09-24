@@ -1,1 +1,3 @@
-Documento de intro de wireframe
+En esta carpeta se cargarán las versiones de los wireframes y mockups.
+
+-----
