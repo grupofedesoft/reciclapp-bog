@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ReciclAppJe": {
+    "bogotarecicla": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ReciclAppJe",
+            "outputPath": "dist/bogotarecicla",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,6 +23,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -50,18 +51,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ReciclAppJe:build"
+            "browserTarget": "bogotarecicla:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ReciclAppJe:build:production"
+              "browserTarget": "bogotarecicla:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ReciclAppJe:build"
+            "browserTarget": "bogotarecicla:build"
           }
         },
         "test": {
@@ -95,7 +96,7 @@
         }
       }
     },
-    "ReciclAppJe-e2e": {
+    "bogotarecicla-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +104,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ReciclAppJe:serve"
+            "devServerTarget": "bogotarecicla:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ReciclAppJe:serve:production"
+              "devServerTarget": "bogotarecicla:serve:production"
             }
           }
         },
@@ -123,5 +124,5 @@
       }
     }
   },
-  "defaultProject": "ReciclAppJe"
+  "defaultProject": "bogotarecicla"
 }
