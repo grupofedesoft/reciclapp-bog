@@ -1,0 +1,7 @@
+{
+  "name": "bogotarecicla",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
