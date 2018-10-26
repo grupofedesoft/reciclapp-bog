@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Estado: false
+  Localidad: 1
+  Dia: 1
+  HoraInicial: MyString
+  HoraFinal: MyString
+
+two:
+  Estado: false
+  Localidad: 1
+  Dia: 1
+  HoraInicial: MyString
+  HoraFinal: MyString

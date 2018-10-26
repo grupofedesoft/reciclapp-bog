@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Tipo_Doc: 1
+  Documento: 1
+  Nombre: MyString
+  Estado: false
+
+two:
+  Tipo_Doc: 1
+  Documento: 1
+  Nombre: MyString
+  Estado: false
