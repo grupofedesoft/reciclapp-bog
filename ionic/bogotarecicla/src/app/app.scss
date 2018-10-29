@@ -25,8 +25,9 @@ ion-title {
   text-align: center;
 }
 .toolbar-title {
-    font-weight: 400!important;
+    font-weight: 300!important;
     font-size: 1.4rem!important;
+    text-transform: none!important;
 }
 .toolbar {
     min-height: 44px!important;
@@ -34,7 +35,7 @@ ion-title {
 .tabs .tab-button {
     min-height: 44px!important;
 }
-.tabs .tab-button[aria-selected=true] .tab-button-icon {
+.tabs .tab-button[aria-selected=true] .tab-button-icon, .back-button, .bar-button-default {
     color: #3a3a3a!important;
 }
 .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
@@ -47,33 +48,34 @@ ion-title {
 ion-content {
     font-weight: 300;
 }
-span.block {
-    display: block;
-    text-align: center;
-}
-p.salir {
-    margin-top: 25px;
-}
 .logo {
     text-align: center;
 }
-.button-md, .bar-button-md {
+.button-md, .bar-button-md, .bar-button-wp {
     text-transform: none!important;
 }
-.footer:before {
+.header ion-title {
+    padding: 1px 15px 0!important;
+    border-bottom: 1px solid #3a3a3a;
+}
+.footer:before, .header:after, .tabs .tabbar:before {
     display: none;
 }
-.footer ion-title {
+.footer ion-title, .tabs .tabbar {
     padding: 0 15px 1px!important;
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #3a3a3a!important;
 }
 .footer .toolbar-title {
     overflow: visible!important;
     white-space: normal!important;
     font-weight: 300!important;
 }
-.footer .toolbar-background {
+.footer .toolbar-background, .header .toolbar-background, .tabs .tabbar {
     background: none!important;
+    border: none;
+}
+.formulario.list {
+    margin-bottom: 15px;
 }
 .formulario .item {
     padding-left: 0!important;
@@ -82,8 +84,10 @@ p.salir {
     border-bottom: 1px solid #3a3a3a!important;
     padding: 0!important;
 }
-.formulario .text-input {
+.formulario .text-input, .formulario .select.select-wp {
     margin-left: 0!important;
+    border: none;
+    padding: 0;
 }
 .formulario .item-input:last-child {
     border-bottom: none!important;
@@ -101,7 +105,7 @@ p.salir {
     color: #ffffff!important;
 }
 #introPage .footer ion-title {
-    border-top: 1px solid #ffffff;
+    border-top: 1px solid #ffffff!important;
 }
 #introPage .formulario .item-input {
     background: none!important;
@@ -109,4 +113,99 @@ p.salir {
 }
 #introPage .formulario .item-block .item-inner {
     border-bottom: 1px solid #ffffff!important;
+}
+#introPage .text-input::-moz-placeholder {
+  color: #ffffff;
+  font-weight: 300;
+  opacity: 1;
+}
+#introPage .text-input::-ms-input-placeholder {
+  color: #ffffff;
+  font-weight: 300;
+  opacity: 1;
+}
+#introPage .text-input::-webkit-input-placeholder {
+  color: #ffffff;
+  font-weight: 300;
+  opacity: 1;
+}
+.flexed .scroll-content {
+    display: flex;
+    flex-direction: column;
+}
+.flexed .logo {
+    padding-top: 40px;
+    margin: 0 auto;
+    max-width: 500px;
+}
+.flexed .centro {
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+}
+.item-select .label-ios {
+    color: #8e8e8e;
+}
+.alert-wrapper [aria-checked=true] .alert-radio-label {
+    color: #3a3a3a!important;
+}
+.alert-ios .alert-button:first-child, .alert-md .alert-button:first-child {
+    color: #8e8e8e!important;
+}
+.app-link button {
+    background: none!important;
+    padding: 0;
+}
+.app-link button img {
+    margin-bottom: 7px!important;
+}
+.button-md {
+    box-shadow: none!important;
+}
+.button.button-md-primary, .button.button-ios-primary, .button.button-wp-primary {
+    font-size: 1.6rem!important;
+    font-weight: 300!important;
+}
+.item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+   box-shadow: none!important;
+}
+.content {
+    color: #3a3a3a;
+}
+.content h1 {
+    margin: 0 0 15px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.content h2 {
+    font-size: 1.6rem;
+}
+.content p {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+.content p.contenedor-resultado {
+    margin-bottom: 1px;
+}
+.content label.color-primary {
+    font-weight: bold;
+}
+.content label.color-primary.block {
+    display: block;
+    font-size: 1.6rem;
+}
+span.block {
+    display: block;
+    text-align: center;
+}
+.content p.salir {
+    margin-top: 25px;
+}
+@media all and (max-width: 359px) {
+    .flexed .logo {
+        padding-top: 20px;
+    }
+    .flexed.registro .logo {
+        padding-top: 0;
+    }
 }
