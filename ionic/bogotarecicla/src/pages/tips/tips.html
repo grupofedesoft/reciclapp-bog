@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button icon-only (click)="goToHome()">
+          <ion-icon name="arrow-back"></ion-icon> Inicio
+      </button>
+    </ion-buttons>
+    <ion-title>Bogotá <strong>Recicla</strong></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Tips de reciclaje</h1>
+  <!-- El contenido del h2 debe cambiarse con el título del tip de la bd -->
+  <h2 class="color-primary">{{titulo}}</h2>
+  <!-- El contenido del div debe cambiarse con el contenido del tip de la bd, también la imagen
+  que por ahora reemplaza el recurso (si es que se separó del texto. sino ponerla en el contenido) -->
+  <div class="contenedor-tip">
+    <p>{{contenido}}</p>
+    <div class="recurso-tip">
+      <p><img [src]="imagen" /></p>
+    </div>
+    <!-- Hay imágenes de ejemplo para los siguientes temas de tips que pueden ser útiles
+        (no sé que hay cargado):
+    1. Reciclar plástico = ./assets/imgs/tip-plastico.jpg
+    2. Reciclar pilas o baterías = ./assets/imgs/tip-baterias.jpg
+    3. Reciclar bombillos = ./assets/imgs/tip-bombillos.jpg
+    4. Reciclar latas = ./assets/imgs/tip-latas.jpg
+    5. Orgánicos (por ejemplo decir que no van en reciclables) = ./assets/imgs/tip-organicos.jpg
+    6. Reciclar papel = ./assets/imgs/tip-papel.jpg
+    7. Reciclar vidrio = ./assets/imgs/tip-vidrio.jpg
+    -->
+  </div>
+  <div class="puntos">
+    <!-- El número 15 debe cambiarse por el acumulado de la bd -->
+    <p>Obtuviste <strong>1 punto</strong>. Tienes <strong>{{puntos}} puntos</strong> acumulados.</p>
+  </div>
+  <!-- Al pulsar el botón trae los datos de otro tip. Falta llenar el método en tips.ts -->
+  <button ion-button block color="primary" (click)="otroTip()">Ver otro tip</button>
+</ion-content>

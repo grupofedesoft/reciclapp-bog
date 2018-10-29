@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button icon-only (click)="goToHome()">
+          <ion-icon name="arrow-back"></ion-icon> Inicio
+      </button>
+    </ion-buttons>
+    <ion-title>Bogotá <strong>Recicla</strong></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Mi cuenta</h1>
+  <!-- El contenido de los siguientes span.resultado debe cambiarse con los datos de la bd -->
+  <div class="resultados-cuenta">
+      <p>
+        <label class="color-primary block">Correo electrónico:</label> 
+        <span class="resultado">{{usuario}}</span>
+      </p>  
+      <p>
+        <label class="color-primary block">Localidad:</label> 
+        <span class="resultado">{{localidad}}</span>
+      </p>
+      <p>
+        <label class="color-primary block">UPZ:</label> 
+        <span class="resultado">{{upz}}</span>
+      </p>
+      <p>
+        <label class="color-primary block">Barrio:</label> 
+        <span class="resultado">{{barrio}}</span>
+      </p>
+      <p>
+        <label class="color-primary block">Puntos acumulados:</label> 
+        <span class="resultado">{{puntos}} puntos</span>
+      </p>
+  </div>
+  <button ion-button block color="color-primary" (click)="showModal()">Editar información</button>
+  <p class="salir"><span class="block" (click)="logoutUser()">Cerrar sesión</span></p>
+</ion-content>

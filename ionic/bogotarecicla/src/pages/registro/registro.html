@@ -1,0 +1,42 @@
+<ion-content padding>
+  <div class="logo">
+    <img src="./assets/imgs/logo.png" alt="Bogotá Recicla" />
+  </div>
+  <ion-list class="formulario">
+    <ion-item>
+      <ion-input type="email" placeholder="Correo electrónico"></ion-input> <ion-icon name="ios-person-outline" item-right></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" placeholder="Contraseña"></ion-input> <ion-icon name="ios-lock-outline" item-right></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-label>Localidad</ion-label>
+      <ion-select okText="Seleccionar" cancelText="Cancelar">
+        <!-- Acá debe cargar las opciones desde la bd con un ngFor -->
+        <ion-option value="Usaquén">Usaquén</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>UPZ</ion-label>
+      <ion-select okText="Seleccionar" cancelText="Cancelar">
+        <!-- Acá debe cargar las opciones desde la bd con un ngFor -->
+        <ion-option value="Los cedros">Los cedros</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Barrio (sector catastral)</ion-label>
+      <ion-select okText="Seleccionar" cancelText="Cancelar">
+        <!-- Acá debe cargar las opciones desde la bd con un ngFor -->
+        <ion-option value="Acacias">Acacias</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <button ion-button block color="primary" (click)="registerUser()">Continuar</button>
+  <p><span class="block" (click)="goToExternalLink()">¿No sabes los datos de tu localidad, UPZ o barrio? <strong>Consúltalos acá</strong></span></p>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+      <ion-title><span class="block" (click)="goToIntro()">¿Ya tienes cuenta? <strong>Inicia sesión</strong></span></ion-title>
+  </ion-toolbar>
+</ion-footer>
