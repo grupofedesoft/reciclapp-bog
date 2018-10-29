@@ -31,13 +31,6 @@ ion-title {
 .toolbar {
     min-height: 44px!important;
 }
-.footer ion-title {
-    padding: 0 15px 1px!important;
-}
-.footer .toolbar-title {
-    overflow: visible!important;
-    white-space: normal!important;
-}
 .tabs .tab-button {
     min-height: 44px!important;
 }
@@ -51,17 +44,69 @@ ion-title {
 .color-primary {
     color: #58b364;
 }
-#introPage {
-    height: 100%!important;
-    background: #29370a!important;
+ion-content {
+    font-weight: 300;
 }
-#introPage .toolbar-background, #introPage .content, #introPage .toolbar-title {
-    background: none!important;
-    color: #ffffff!important;
+span.block {
+    display: block;
+    text-align: center;
+}
+p.salir {
+    margin-top: 25px;
 }
 .logo {
     text-align: center;
 }
 .button-md, .bar-button-md {
     text-transform: none!important;
+}
+.footer:before {
+    display: none;
+}
+.footer ion-title {
+    padding: 0 15px 1px!important;
+    border-top: 1px solid #3a3a3a;
+}
+.footer .toolbar-title {
+    overflow: visible!important;
+    white-space: normal!important;
+    font-weight: 300!important;
+}
+.footer .toolbar-background {
+    background: none!important;
+}
+.formulario .item {
+    padding-left: 0!important;
+}
+.formulario .item-block .item-inner {
+    border-bottom: 1px solid #3a3a3a!important;
+    padding: 0!important;
+}
+.formulario .text-input {
+    margin-left: 0!important;
+}
+.formulario .item-input:last-child {
+    border-bottom: none!important;
+}
+.formulario .item-block:first-child {
+    border-top: none!important;
+}
+#introPage {
+    height: 100%!important;
+    background: #324616 url(../assets/imgs/fondo-login.jpg) no-repeat center!important;
+    background-size: cover!important;
+}
+#introPage .toolbar-background, #introPage .content, #introPage .toolbar-title {
+    background: none!important;
+    color: #ffffff!important;
+}
+#introPage .footer ion-title {
+    border-top: 1px solid #ffffff;
+}
+#introPage .formulario .item-input {
+    background: none!important;
+    color: #ffffff!important;
+}
+#introPage .formulario .item-block .item-inner {
+    border-bottom: 1px solid #ffffff!important;
 }
