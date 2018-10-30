@@ -25,7 +25,7 @@ ion-title {
   text-align: center;
 }
 .toolbar-title {
-    font-weight: 300!important;
+    font-weight: 400!important;
     font-size: 1.4rem!important;
     text-transform: none!important;
 }
@@ -33,7 +33,7 @@ ion-title {
     min-height: 44px!important;
 }
 .tabs .tab-button {
-    min-height: 44px!important;
+    min-height: 42px!important;
 }
 .tabs .tab-button[aria-selected=true] .tab-button-icon, .back-button, .bar-button-default {
     color: #3a3a3a!important;
@@ -46,7 +46,7 @@ ion-title {
     color: #58b364;
 }
 ion-content {
-    font-weight: 300;
+    font-weight: 400;
 }
 .logo {
     text-align: center;
@@ -68,7 +68,7 @@ ion-content {
 .footer .toolbar-title {
     overflow: visible!important;
     white-space: normal!important;
-    font-weight: 300!important;
+    font-weight: 400!important;
 }
 .footer .toolbar-background, .header .toolbar-background, .tabs .tabbar {
     background: none!important;
@@ -116,17 +116,17 @@ ion-content {
 }
 #introPage .text-input::-moz-placeholder {
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 400;
   opacity: 1;
 }
 #introPage .text-input::-ms-input-placeholder {
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 400;
   opacity: 1;
 }
 #introPage .text-input::-webkit-input-placeholder {
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 400;
   opacity: 1;
 }
 .flexed .scroll-content {
@@ -155,6 +155,8 @@ ion-content {
 .app-link button {
     background: none!important;
     padding: 0;
+    font-size: 1.6rem;
+    line-height: 1.25em;
 }
 .app-link button img {
     margin-bottom: 7px!important;
@@ -162,15 +164,16 @@ ion-content {
 .button-md {
     box-shadow: none!important;
 }
-.button.button-md-primary, .button.button-ios-primary, .button.button-wp-primary {
+.button.button-md-color-primary, .button.button-ios-color-primary, .button.button-wp-color-primary, .button.button-md-primary, .button.button-ios-primary, .button.button-wp-primary {
     font-size: 1.6rem!important;
-    font-weight: 300!important;
+    font-weight: 400!important;
 }
 .item-md.item-input.ng-valid.item-input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner, .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
    box-shadow: none!important;
 }
 .content {
     color: #3a3a3a;
+    line-height: 1.3em;
 }
 .content h1 {
     margin: 0 0 15px;
@@ -183,6 +186,10 @@ ion-content {
 .content p {
     margin: 0 0 15px;
     font-weight: 400;
+    font-size: 1.4rem;
+}
+.content p.margin-top {
+    margin: 15px 0 0;
 }
 .content p.contenedor-resultado {
     margin-bottom: 1px;
@@ -200,6 +207,83 @@ span.block {
 }
 .content p.salir {
     margin-top: 25px;
+}
+.ion-ios-home:before,
+.ion-md-home:before {
+    content: " ";
+    width: 26px;
+    height: 26px;
+    background: url(../assets/imgs/ios-home.svg) no-repeat center;
+    background-size: contain;
+    opacity: 1;
+    vertical-align: middle;
+}
+.ion-ios-home-outline:before {
+    content: " ";
+    width: 26px;
+    height: 26px;
+    background: url(../assets/imgs/ios-home-line.svg) no-repeat center;
+    background-size: contain;
+    opacity: 0.9;
+    vertical-align: middle;
+}
+.ion-ios-clock:before,
+.ion-md-clock:before {
+    content: " ";
+    width: 35px;
+    height: 26px;
+    background: url(../assets/imgs/camion.svg) no-repeat center;
+    background-size: contain;
+    opacity: 1;
+    vertical-align: middle;
+}
+.ion-ios-clock-outline:before {
+    content: " ";
+    width: 35px;
+    height: 26px;
+    background: url(../assets/imgs/camion-line.svg) no-repeat center;
+    background-size: contain;
+    opacity: 0.9;
+    vertical-align: middle;
+}
+.ion-ios-leaf:before,
+.ion-md-leaf:before {
+    content: " ";
+    width: 26px;
+    height: 26px;
+    background: url(../assets/imgs/can.svg) no-repeat center;
+    background-size: contain;
+    opacity: 1;
+    vertical-align: middle;
+}
+.ion-ios-leaf-outline:before {
+    content: " ";
+    width: 26px;
+    height: 26px;
+    background: url(../assets/imgs/can-line.svg) no-repeat center;
+    background-size: contain;
+    opacity: 0.9;
+    vertical-align: middle;
+}
+
+.ion-ios-contact:before,
+.ion-md-contact:before {
+    content: " ";
+    width: 26px;
+    height: 26px;
+    background: url(../assets/imgs/user.svg) no-repeat center;
+    background-size: contain;
+    opacity: 1;
+    vertical-align: middle;
+}
+.ion-ios-contact-outline:before {
+    content: " ";
+    width: 26px;
+    height: 26px;
+    background: url(../assets/imgs/user-line.svg) no-repeat center;
+    background-size: contain;
+    opacity: 0.9;
+    vertical-align: middle;
 }
 @media all and (max-width: 359px) {
     .flexed .logo {
