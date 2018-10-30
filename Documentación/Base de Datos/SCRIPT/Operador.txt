@@ -1,82 +1,82 @@
     INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (1, 'PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 1);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 1);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (2, 'PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 2);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 2);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (3, 'PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 3);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 3);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (4, 'PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 4);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 4);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (5, 'PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 5);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 5);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (6, 'PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 20);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 20);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (7, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 13);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 13);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (8, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 14);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 14);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (9, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 15);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 15);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (10, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 16);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 16);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (11, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 18);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 18);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (12, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 6);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 6);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (13, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 19);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 19);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (14, 'LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 7);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 7);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (15, 'CIUDAD LIMPIA BOGOTA S A E S P', 4, 830048122, true, 8);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('CIUDAD LIMPIA BOGOTA S A E S P', 4, 830048122, true, 8);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (16, 'CIUDAD LIMPIA BOGOTA S A E S P', 4, 830048122, true, 9);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('CIUDAD LIMPIA BOGOTA S A E S P', 4, 830048122, true, 9);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (17, 'BOGOTA LIMPIA S.A.S. E.S.P.', 4, 901144843, true, 10);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('BOGOTA LIMPIA S.A.S. E.S.P.', 4, 901144843, true, 10);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (18, 'BOGOTA LIMPIA S.A.S. E.S.P.', 4, 901144843, true, 12);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('BOGOTA LIMPIA S.A.S. E.S.P.', 4, 901144843, true, 12);
 	
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (19, 'AREA LIMPIA DISTRITO CAPITAL S.A.S. E.S.P.', 4, 901146434, true, 11);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('AREA LIMPIA DISTRITO CAPITAL S.A.S. E.S.P.', 4, 901146434, true, 11);
 			
 	INSERT INTO public.tbl_operador(
-	"Id", "Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
-	VALUES (20, 'AGUAS DE BOGOTA S A ESP', 4, 830128286, true, 17);
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('AGUAS DE BOGOTA S A ESP', 4, 830128286, true, 17);
 	
 	
 	
