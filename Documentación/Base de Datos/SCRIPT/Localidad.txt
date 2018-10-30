@@ -1,0 +1,79 @@
+    INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (01, 'Usaquen', true);
+	
+    INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (02, 'Chapinero', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (03, 'Santa Fe', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (04, 'San Cristobal', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (05, 'Usme', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (06, 'Tunjuelito', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (07, 'Bosa', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (08, 'Kennedy', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (09	, 'Fontibon', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (10, 'Engativa', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (11, 'Suba', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (12, 'Barrios Unidos', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (13, 'Teusaquillo', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (14, 'Los Martires', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (15, 'Antonio Nariño', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (16, 'Puente Aranda', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (17, 'La Candelaria', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (18, 'Rafael Uribe Uribe', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (19, 'Ciudad Bolivar', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Id", "Nombre", "Estado")
+	VALUES (20, 'Sumapaz', true);

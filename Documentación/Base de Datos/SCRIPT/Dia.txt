@@ -1,0 +1,30 @@
+    INSERT INTO public.tbl_dia(
+	"Id", "Nombre", "Estado")
+	VALUES (1,'Lunes', true);
+	
+	INSERT INTO public.tbl_dia(
+	"Id", "Nombre", "Estado")
+	VALUES (2,'Martes', true);
+	
+	INSERT INTO public.tbl_dia(
+	"Id", "Nombre", "Estado")
+	VALUES (3,'Miercoles', true);
+	
+	INSERT INTO public.tbl_dia(
+	"Id", "Nombre", "Estado")
+	VALUES (4,'Jueves', true);
+	
+	INSERT INTO public.tbl_dia(
+	"Id", "Nombre", "Estado")
+	VALUES (5,'Viernes', true);
+	
+	INSERT INTO public.tbl_dia(
+	"Id", "Nombre", "Estado")
+	VALUES (6,'Sabado', true);
+	
+	INSERT INTO public.tbl_dia(
+	"Id", "Nombre", "Estado")
+	VALUES (7,'Domingo', true);
+	
+	
+	
