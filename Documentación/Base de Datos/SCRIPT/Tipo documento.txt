@@ -1,0 +1,23 @@
+    INSERT INTO public.tbl_tipo_documento(
+	"Tipo_Doc", "Nombre", "Estado")
+	VALUES ('CC', 'Cédula de ciudadanía', true);
+		
+	INSERT INTO public.tbl_tipo_documento(
+	"Tipo_Doc", "Nombre", "Estado")
+	VALUES ('CE', 'Cédula de extranjería', true);
+	
+	INSERT INTO public.tbl_tipo_documento(
+	"Tipo_Doc", "Nombre", "Estado")
+	VALUES ('PB', 'Pasaporte', true);
+	
+	INSERT INTO public.tbl_tipo_documento(
+	"Tipo_Doc", "Nombre", "Estado")
+	VALUES ('NI', 'Nit', true);
+	
+	INSERT INTO public.tbl_tipo_documento(
+	"Tipo_Doc", "Nombre", "Estado")
+	VALUES ('RC', 'Registro civil', true);
+	
+	INSERT INTO public.tbl_tipo_documento(
+	"Tipo_Doc", "Nombre", "Estado")
+	VALUES ('TI', 'Tarjeta de identidad', true);

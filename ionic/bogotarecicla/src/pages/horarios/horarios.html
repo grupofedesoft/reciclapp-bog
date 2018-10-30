@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button icon-only (click)="goToHome()">
+          <ion-icon name="arrow-back"></ion-icon> Inicio
+      </button>
+    </ion-buttons>
+    <ion-title>Bogotá <strong>Recicla</strong></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p><img src="./assets/imgs/camion.jpg" alt="Horarios de recolección de basuras" /></p>
+  <h1>Horarios de recolección de basuras en tu barrio</h1>
+  <!-- El contenido de los siguientes span.resultado debe cambiarse con los datos de la bd -->
+  <div class="resultados-horarios">
+    <p class="contenedor-resultado">
+      <label class="color-primary">Localidad:</label> 
+      <span class="resultado">{{localidad}}</span>
+    </p>
+    <p class="contenedor-resultado">
+      <label class="color-primary">Barrio:</label> 
+      <span class="resultado">{{barrio}}</span>
+    </p>
+    <p class="contenedor-resultado">
+      <label class="color-primary">Operador:</label> 
+      <span class="resultado">{{operador}}</span>
+    </p>
+    <p class="contenedor-resultado">
+      <label class="color-primary">Frecuencia:</label> 
+      <span class="resultado">{{frecuencia}}</span>
+    </p>
+    <p class="contenedor-resultado">
+      <label class="color-primary">Jornada:</label> 
+      <span class="resultado">{{jornada}}</span>
+    </p>
+    <p class="contenedor-resultado">
+      <label class="color-primary">Horarios:</label> 
+      <span class="resultado">{{horarios}}</span>
+    </p>
+  </div>
+</ion-content>

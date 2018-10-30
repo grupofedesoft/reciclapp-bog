@@ -1,14 +1,39 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Bogotá <strong>Recicla</strong></ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-grid class="listado-paginas">
+    <ion-row>
+      <ion-col>
+        <div class="app-link">
+          <button text-center (click)="goToHorarios()">
+            <img src="./assets/imgs/camion-box.png" />
+            <span>Horarios de recolección de basuras</span>
+          </button>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div class="app-link">
+            <button text-center (click)="goToTips()">
+              <img src="./assets/imgs/caneca-box.png" />
+              <span>Tips de reciclaje</span>
+            </button>
+          </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="app-link">
+            <button text-center (click)="goToCuenta()">
+              <img src="./assets/imgs/usuario-box.png" />
+              <span>Mi cuenta</span>
+            </button>
+          </div>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

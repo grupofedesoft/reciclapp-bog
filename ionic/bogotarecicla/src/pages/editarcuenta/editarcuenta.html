@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button icon-only (click)="close()">
+          <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>Bogotá <strong>Recicla</strong></ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>Editar: {{usuario}}</h1>
+  <ion-list class="formulario">
+    <ion-item>
+      <ion-input type="email" placeholder="Correo electrónico" [(ngModel)]="email"></ion-input> <ion-icon name="ios-person-outline" item-right></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-input type="password" placeholder="Contraseña" [(ngModel)]="contrasena"></ion-input> <ion-icon name="ios-lock-outline" item-right></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-label>Localidad</ion-label>
+      <ion-select [(ngModel)]="localidad" okText="Seleccionar" cancelText="Cancelar">
+        <!-- Acá debe cargar las opciones desde la bd con un ngFor -->
+        <ion-option value="Usaquén">Usaquén</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>UPZ</ion-label>
+      <ion-select [(ngModel)]="upz" okText="Seleccionar" cancelText="Cancelar">
+        <!-- Acá debe cargar las opciones desde la bd con un ngFor -->
+        <ion-option value="Los cedros">Los cedros</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Barrio</ion-label>
+      <ion-select [(ngModel)]="barrio" okText="Seleccionar" cancelText="Cancelar">
+        <!-- Acá debe cargar las opciones desde la bd con un ngFor -->
+        <ion-option value="Acacias">Acacias</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+  <ion-grid class="botones-confirmación">
+    <ion-row>
+      <ion-col col-6>
+        <button ion-button block color="primary" (click)="closeAndSave()">Guardar</button>
+      </ion-col>
+      <ion-col col-6>
+        <button ion-button block color="secondary" (click)="close()">Cancelar</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

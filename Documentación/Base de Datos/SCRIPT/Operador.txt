@@ -1,0 +1,83 @@
+    INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 1);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 2);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 3);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 4);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 5);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('PROMOAMBIENTAL DISTRITO S A S ESP', 4, 901145808, true, 20);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 13);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 14);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 15);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 16);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 18);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 6);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 19);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('LIMPIEZA METROPOLITANA S A E S P', 4, 830123461, true, 7);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('CIUDAD LIMPIA BOGOTA S A E S P', 4, 830048122, true, 8);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('CIUDAD LIMPIA BOGOTA S A E S P', 4, 830048122, true, 9);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('BOGOTA LIMPIA S.A.S. E.S.P.', 4, 901144843, true, 10);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('BOGOTA LIMPIA S.A.S. E.S.P.', 4, 901144843, true, 12);
+	
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('AREA LIMPIA DISTRITO CAPITAL S.A.S. E.S.P.', 4, 901146434, true, 11);
+			
+	INSERT INTO public.tbl_operador(
+	"Nombre", "Tipo_Doc", "Documento", "Estado", "Localidad")
+	VALUES ('AGUAS DE BOGOTA S A ESP', 4, 830128286, true, 17);
+	
+	
+	
+	

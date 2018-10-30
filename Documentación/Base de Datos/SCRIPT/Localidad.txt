@@ -1,0 +1,79 @@
+    INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Usaquen', true);
+	
+    INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Chapinero', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Santa Fe', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('San Cristobal', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Usme', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Tunjuelito', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Bosa', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Kennedy', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Fontibon', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Engativa', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Suba', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Barrios Unidos', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Teusaquillo', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Los Martires', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Antonio Nariño', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Puente Aranda', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('La Candelaria', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Rafael Uribe Uribe', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Ciudad Bolivar', true);
+	
+	INSERT INTO public.tbl_localidad(
+	"Nombre", "Estado")
+	VALUES ('Sumapaz', true);
